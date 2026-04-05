@@ -1,0 +1,17 @@
+<app-header (buscar)="fazerbusca($event)"></app-header>
+<div class="container" *ngIf="detalhe">
+    <div class="row align-items-center mt-4">
+        <div class="col-md-6 text-center">
+            <img 
+                [src]="'public/img' + detalhe.codigo + '.jpeg'"
+                class="img-fluid"
+                style="max-height: 400px; object-fit: contain;">
+        </div>
+        <div class="col-md-6">
+            <h2>{{ detalhe.nome }}</h2>
+            <p>{{ detalhe.descritivo }}</p>
+            <h4>R$ {{ detalhe.valor }}</h4>
+            <button (click)="irParaCesta()" class="btn btn-outline-success">Comprar</button>
+        </div>
+    </div>
+</div>

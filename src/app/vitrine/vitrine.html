@@ -1,0 +1,16 @@
+<app-header (buscar)="fazerBusca($event)"></app-header>
+<div class="container">
+    <p *ngIf="busca">
+        Pesquisa por: {{busca}}
+    </p>
+    <h1>Vitrine</h1>
+    <div class="row">
+        <div *ngFor="let obj of lista" class="card col-sm-12 col-md-4 col-xxl-3">
+            <img [src]="'public/img' + obj.codigo + '.jpeg'" class="card-img-top mt-1 img-fluid"
+                style="height: 200px; object-fit: contain; cursor: pointer;" (click)="irParaDetalhe(obj)">            <h4 (click)="irParaDetalhe(obj)">{{obj.nome}}</h4>
+            <div class="card-title">{{obj.nome}}</div>
+            <div>R$ {{obj.valor}}</div>
+            <button class="btn btn-outline-success" (click)="irParaCesta(obj)">Comprar</button>
+        </div>
+    </div>
+</div>

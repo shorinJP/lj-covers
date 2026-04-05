@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+}
+
+/* h1,h2,h3 {
+    color: yellow;
+    border-bottom: dotted 2px yellow;
+} */
+
+input, textarea, select {
+    background-color: lightyellow;
+    border: white;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* #senha {
+    background-color: lightcoral;
+} */
+
+/* .btnNormal {
+    width: 100px;
+    border: solid white 2px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+} */

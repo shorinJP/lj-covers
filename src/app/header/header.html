@@ -1,0 +1,22 @@
+<header class="header">
+<a routerLink="/vitrine"><img src="public/logo.jpeg" width="50px" /></a>
+
+    <div class="busca">
+        <input type="text" placeholder="Buscar discos..." [(ngModel)]="busca">
+        <button (click)="onBuscar()">🔍</button>
+    </div>
+
+    <div class="user">
+        <button (click)="irParaLogin()">👤</button>
+    </div>
+</header>
+
+<div class="container">
+    <nav>
+        <a routerLink="/vitrine">Vitrine</a>
+        <a routerLink="/cadastro">Cadastro</a>
+        <a routerLink="/login">Login</a>
+        <a routerLink="/cesta">Cesta</a>
+    </nav>
+</div>
+<hr>

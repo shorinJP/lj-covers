@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.busca {
+    display: flex;
+    gap: 5px;
+    width: 40%;
+}
+
+.busca input {
+    width: 100%;
+    padding: 8px;
+}
+
+.user {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif; 
+}
+
+  .container nav a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #5f5e5a;
+    text-decoration: none;
+    padding: 1px 70px;
+    letter-spacing: 0.7px;
+    transition: color 0.15s;
+    white-space: nowrap; 
+  }
+
+  .container nav a:hover {
+    color: #1a1a1a;
+  }
+
+  .container nav a.active {
+    background: #1a1a1a;
+    color: #f5f5f0;
+  }
+
