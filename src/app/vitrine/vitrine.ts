@@ -22,73 +22,87 @@ export class Vitrine {
   lista: Produto[] = [
     {
       "codigo": 1,
-      "nome": "exemplo1",
-      "descritivo": "exemplo1",
-      "valor": 0.0,
-      "quantidade": 15
+      "nome": "Tim Maia 1972",
+      "descritivo": "Seu terceiro albúm com 12 faixas onde ele embeleza e nos mostra o que realmente é MPB",
+      "valor": 400.0,
+      "quantidade": 3
     },
     {
       "codigo": 2,
-      "nome": "exemplo2",
-      "descritivo": "exemplo2",
-      "valor": 0.0,
-      "quantidade": 20
+      "nome": "Queen: News of de World 1977",
+      "descritivo": "Considerado por muitos o melhor albúm da banda, contendo 11 faixas sendo uma delas 'We Are The Champions'. Isso é Rock!",
+      "valor": 290.0,
+      "quantidade": 8
     },
     {
       "codigo": 3,
-      "nome": "exemplo3",
-      "descritivo": "exemplo3",
-      "valor": 0.0,
-      "quantidade": 30
+      "nome": "Queen: A Night at the Opera 1975",
+      "descritivo": "Mistura rock, ópera, baladas e pop. Teve produção cara e sofisticada para a época. Com 12 faixas, 'Bohemian Rhapsody' sendo a mais conhecida",
+      "valor": 250.0,
+      "quantidade": 20
     },
     {
       "codigo": 4,
-      "nome": "exemplo4",
-      "descritivo": "exemplo4",
-      "valor": 0.0,
-      "quantidade": 25
-    },
-    {
-      "codigo": 5,
-      "nome": "exemplo5",
-      "descritivo": "exemplo5",
-      "valor": 0.0,
+      "nome": "Creed: The Best Of Creed 2025",
+      "descritivo": "Um disco onde se reúne o melhor do Creed. Isso é Slow Rock",
+      "valor": 300.0,
       "quantidade": 10
     },
     {
+      "codigo": 5,
+      "nome": "BMTH: That`s the Ispirit 2015",
+      "descritivo": "BMTH se renova nesse albúm em uma pegada mais pop mas sem deixar o Rock de lado com 11 faixas, com 'Follow You' sendo a melhor",
+      "valor": 280.0,
+      "quantidade": 5
+    },
+    {
       "codigo": 6,
-      "nome": "exemplo6",
-      "descritivo": "exemplo6",
-      "valor": 0.0,
-      "quantidade": 40
+      "nome": "BMTH: Sempiternal 2013",
+      "descritivo": "BMTH na sua maior essência, o puro Trash Metal, com 11 faixas sendo 'Can You Fell My Heart' a mais famosa",
+      "valor": 300.0,
+      "quantidade": 8
     },
     {
       "codigo": 7,
-      "nome": "exemplo7",
-      "descritivo": "exemplo7",
-      "valor": 0.0,
-      "quantidade": 50
+      "nome": "Rita Lee (Remastered) 1979",
+      "descritivo": "Rita Lee vem com esse album revolucionando o POP brasileiro, com 08 faixas, 'Mania de Você' sendo a mais famosa ",
+      "valor": 260,
+      "quantidade": 7
     },
     {
       "codigo": 8,
-      "nome": "exemplo8",
-      "descritivo": "exemplo8",
-      "valor": 0.0,
-      "quantidade": 12
+      "nome": "Chico Buarque 1987",
+      "descritivo": "Com 11 faixas Chico trás um novo ar para o MPB, com 'Cálice' e 'Apesar de Você' parando no ouvido de todos nos anos 80-90",
+      "valor": 300.0,
+      "quantidade": 1
     },
     {
       "codigo": 9,
-      "nome": "exemplo9",
-      "descritivo": "exemplo9",
-      "valor": 0.0,
-      "quantidade": 28
+      "nome": "Charlie Brown Jr.: Abalando sua Fábrica 2001",
+      "descritivo": "Com seu estilo musical único, eles trazem o Punk Rock e Hardcore melódico em 12 faixas, 'Lugar ao Sol' sendo a mais conhecida",
+      "valor": 200.0,
+      "quantidade": 1
     },
     {
       "codigo": 10,
-      "nome": "exemplo10",
-      "descritivo": "exemplo10",
-      "valor": 0.0,
-      "quantidade": 18
+      "nome": "Bob Marley: The Best of Bob Marley 1984",
+      "descritivo": "Um albúm onde junta tudo de melhor da lenda Jamaicana em 16 faixas contendo 'Is This Love', 'No Woman, No Cry' e 'Could You Be Loved'",
+      "valor": 180.0,
+      "quantidade": 2
+    },
+    {
+      "codigo": 11,
+      "nome": "Tyler, The Creator: Igor 2019",
+      "descritivo": "Igor considerado por grande parte do seu público o melhor albúm do cantor, onde mistura RAP, JAZZ, FUNK, GOSPEL. Tendo 12 faixar com 'Earfquake' sendo a mais famosa",
+      "valor": 250.0,
+      "quantidade": 6
+    },
+    {
+      "codigo": 12,
+      "nome": "Toca-discos Crosley Keepsake",
+      "descritivo": "Um toca disco(vitrola) simples, porém muito elegante",
+      "valor": 800.0,
+      "quantidade": 5
     }
   ]
 
