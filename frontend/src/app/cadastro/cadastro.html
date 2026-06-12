@@ -1,0 +1,16 @@
+<app-header></app-header>
+<div class="container p-5" style="max-width: 500px;">
+  <h2 class="mb-4">Cadastro</h2>
+
+  <div *ngIf="erro" class="alert alert-danger">{{ erro }}</div>
+
+  <input [(ngModel)]="nome" placeholder="Nome" class="form-control mb-2" style="border-radius: 24px;">
+  <input [(ngModel)]="email" placeholder="Email" class="form-control mb-2" style="border-radius: 24px;">
+  <input [(ngModel)]="senha" type="password" placeholder="Senha" class="form-control mb-2" style="border-radius: 24px;">
+  <input [(ngModel)]="confirmarSenha" type="password" placeholder="Confirmar senha" class="form-control mb-2" style="border-radius: 24px;">
+  <input [(ngModel)]="cpf" placeholder="CPF" class="form-control mb-2" style="border-radius: 24px;">
+  <input [(ngModel)]="telefone" placeholder="Telefone" class="form-control mb-3" style="border-radius: 24px;">
+
+  <button (click)="cadastrar()" class="btn btn-dark w-100" style="border-radius: 24px;">Cadastrar</button>
+  <p *ngIf="mensagem" class="mt-3 text-dark" style="font-size: 15px;">{{ mensagem }}</p>
+</div>

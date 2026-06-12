@@ -1,0 +1,18 @@
+<app-header></app-header>
+
+<div class="recuperar-wrapper">
+  <div class="recuperar-card">
+    <div class="icone-senha">🔑</div>
+    <h2 class="titulo">Recuperar senha</h2>
+    <p class="subtitulo">Informe seu e-mail e enviaremos as instruções para redefinir sua senha.</p>
+
+    <input type="email" placeholder="Seu e-mail" [(ngModel)]="email" class="form-control campo" />
+
+    <button class="btn btn-dark btn-enviar" (click)="enviar()" [disabled]="enviado">
+      {{ enviado ? 'E-mail enviado!' : 'Enviar instruções' }}
+    </button>
+
+    <p *ngIf="mensagem" class="mensagem-ok">{{ mensagem }}</p>
+    <p *ngIf="erro" class="mensagem-erro">{{ erro }}</p>
+  </div>
+</div>
